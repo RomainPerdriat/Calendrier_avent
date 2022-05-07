@@ -1,0 +1,17 @@
+.homePage {
+    background-color: aquamarine;
+    height: 52rem;
+    max-width: 42rem;
+    margin: auto;
+    padding:1.2rem;
+    
+}
+.box{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 25rem;
+    margin:auto;
+    margin-top:24rem;
+}
