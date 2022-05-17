@@ -3,13 +3,15 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import './case.scss';
 
-const Case = ({className, ...rest}) => {
+const Case = ({
+    className,
+    title,
+    ...rest}) => {
    return (
        <div
             className={classnames('case', className)}
-            {...rest}
          >
-            Case 1
+            {title}
         </div>
    );
 };
